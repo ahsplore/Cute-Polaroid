@@ -1,0 +1,51 @@
+.main-frame {
+    background: #ffffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.1);
+    padding: 40px;
+    min-width: 300px;
+    min-height: 200px;
+}
+
+
+.main-content {
+    text-align: center;
+    margin: 20px 0;
+    color: black;
+}
+.main-content p {
+    color: grey;
+}
+
+
+.emoji-display {
+    background: #ffffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.1);
+    padding: 5px;
+    min-width: 300px;
+}
+.emoji {
+    font-size: 50px;
+    text-shadow: 0 4px 24px rgb(242, 245, 83);
+    border-radius: 50%;
+    padding: 1px 0 5px 2px;
+}
+
+.controls {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.camera-feed {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+/* -webkit-box-reflect: left; */
+
+}
